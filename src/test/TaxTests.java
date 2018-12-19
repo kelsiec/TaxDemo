@@ -10,27 +10,27 @@ public class TaxTests {
 
 
     @Test
-    public void tax_low_salary() {
+    public void taxLowSalary() {
         Assert.assertEquals(600, Tax.tax(6000), DELTA);
     }
 
     @Test
-    public void tax_no_salary() {
+    public void taxNoSalary() {
         Assert.assertEquals(0.0, Tax.tax(0), DELTA);
     }
 
     @Test
-    public void tax_bracket_1() {
+    public void taxBracket1() {
         Assert.assertEquals(1142.5, Tax.tax(10000), DELTA);
     }
 
     @Test
-    public void tax_bracket_2() {
+    public void taxBracket2() {
         Assert.assertEquals(4237.5, Tax.tax(30000), DELTA);
     }
 
     @Test
-    public void tax_bracket_3() {
+    public void taxBracket3() {
         Assert.assertEquals(22627.00, Tax.tax(100000), DELTA);
     }
 }
