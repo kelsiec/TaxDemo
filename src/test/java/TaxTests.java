@@ -1,8 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import main.Tax;
-
 public class TaxTests {
     private static final double DELTA = 0.0001;
 

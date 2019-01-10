@@ -1,5 +1,3 @@
-package main;
-
 public class Tax {
     public static double tax(int salary) {
         final int BRACKET1 = 7150;
